@@ -868,18 +868,18 @@
 //     ){
 // console.log(anun,azganun,age,password);
 
+// //     }
+// function fibonachci (num){
+//     let x = [0,1];
+//     for (let i = 2;i<=num;i++){
+//         let a = x[i-1];
+//         let b = x[i-2];
+//         x.push(a+b);
 //     }
-function fibonachci (num){
-    let x = [0,1];
-    for (let i = 2;i<=num;i++){
-        let a = x[i-1];
-        let b = x[i-2];
-        x.push(a+b);
-    }
-return x [num]
+// return x [num]
 
-} 
-console.log(fibonachci(6));
+// } 
+// console.log(fibonachci(6));
 
 // function fibonacci (num){
 //     let x =[0,1];
@@ -933,4 +933,12 @@ console.log(fibonachci(6));
 //      n2 = n3;
 //     console.log(n3); 
 // }
+
+// const x ={
+//     neme:"vlad"
+// }
+// x.name="vardush"
+// console.log(x.name);
+
+
 

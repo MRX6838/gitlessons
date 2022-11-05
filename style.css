@@ -1,0 +1,115 @@
+.mecline{
+    width: 100%;
+    height: 50;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.line{
+width: 300px;
+height: 45px;
+/* border: solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 9px
+}
+.probel{
+    width: 200px;
+    height: 45px;
+    /* border: solid */
+}
+.verjline{
+    width: 800px;
+    height: 45px;
+    /* border: solid ; */
+    display: flex;
+    justify-content: space-around;
+ 
+    align-content: center
+}
+ .put input{
+     width: 120px;
+     height: 45px;
+     border-radius: 5px;
+     /* border: solid purple; */
+     background-color:  #49AD09;
+     color: white
+
+ }
+ .mecmejtex{
+     width: 100%;
+     height: 500px;
+     display: flex;
+     
+
+ }
+
+ .nkar1{
+     width: 25%;
+     height: 600px;
+     /* border: solid red; */
+     background-image: url(nkarner/top1.png);
+     background-repeat: no-repeat
+ }
+
+ .mejtex{
+     width: 50%;
+     height: 500px;
+     /* border: solid green; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column
+     
+
+ }
+
+ .nkar2{
+     width: 70%;
+     height: 200px;
+     background-image: url(nkarner/center.png);
+     background-repeat: no-repeat; 
+ }
+
+ .text{
+     width: 70%;
+     height: 120px;
+     /* border: solid pink; */
+     color:  #514040;
+ }
+ .forput{
+     width: 100%;
+     height: 40px;
+     /* border: solid; */
+     display: flex;
+     justify-content: center;
+     align-content: center
+ }
+ .put2{
+     width: 60%;
+     height: 35px;
+     /* border: solid brown; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center
+     
+ }
+ .put2 input{
+     width: 50%;
+     height: 40px;
+     background-color: #49AD09;
+     color: white;
+     border-radius: 5px
+ }
+ .video{
+    text-decoration-line: underline;
+ }
+
+ .nkar3{
+     width: 27%;
+     height: 620px;
+     background-image: url(nkarner/top2.png)
+ }

@@ -1012,15 +1012,20 @@
 // delete mirg.prise
 // mirg.color = "red"
 
-let a = 0
-let b = +prompt()
-for (a = 0; a <= b; a++)
-    if (a % 2 == 0) {
-        console.log([a]);
+// let a = 0
+// let b = +prompt()
+// for (a = 0; a <= b; a++)
+//     if (a % 2 == 0) {
+//         console.log([a]);
 
-    } else if (a % 2 !== 0){
-        console.log([a]);
-    }
+//     } else if (a % 2 !== 0){
+//         console.log(a);
+//     }
         
-
-    
+      let x = [,5,7,3,6,4,1,8,9,4,5,4,6,2]  
+     x.sort()
+     {
+         console.log(x);
+         
+     }
+     

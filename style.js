@@ -941,4 +941,84 @@
 // console.log(x.name);
 
 
+// let car = {
+//     Model: "Mercedenc-Bemz",
+//     isTurnOn: false,
+//     speed: 0,
+//     engine: {
+//         v: 1.6,
+//         horses: 120,
+//     },
+//     start: function () {
+//         car.isTurnOn = true;
+//         car.speed = 10
 
+//     }
+// };
+
+// let user ={
+
+//     surname:"Gevorgyan",
+//     age:17,
+
+//     contact:{
+//     tell:"077266360",
+//     email:"gorgevorgyan255581@gmail.com",
+
+
+//     },
+//      change: function() {
+//      this.contact.tell = "077191929"   
+//     }
+// };
+
+// delete user.surname
+// if("name"in user ){
+//     console.log(user.name);
+
+// }
+
+// for(let key in user){
+//     console.log(key);
+//     console.log(user[key]);
+
+
+// }
+
+
+// let mirg = {
+//     name: "ciran",
+//     prise: "1000DR",
+//     madin: {
+//         country: "Armenia",
+//         city: "Erevan"
+//     },
+//     newPrise: function () {
+//         mirg.prise = 500
+
+//         for (let key in mirg) {
+//             console.log(mirg[key]);
+
+
+//         }
+//     }
+
+// }
+
+// if ("name" in mirg) {
+//     console.log(mirg.name);
+// } 
+
+// delete mirg.prise
+// mirg.color = "red"
+
+let a = 0
+let b = +prompt()
+for (a = 0; a <= b; a++)
+    if (a % 2 == 0) {
+        console.log([a]);
+
+    } else {
+        console.log(a);
+
+    }

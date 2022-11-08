@@ -1018,7 +1018,9 @@ for (a = 0; a <= b; a++)
     if (a % 2 == 0) {
         console.log([a]);
 
-    } else {
-        console.log(a);
-
+    } else if (a % 2 !== 0){
+        console.log([a]);
     }
+        
+
+    

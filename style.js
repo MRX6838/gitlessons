@@ -1021,11 +1021,84 @@
 //     } else if (a % 2 !== 0){
 //         console.log(a);
 //     }
+
+//   let x = [,5,7,3,6,4,1,8,9,4,5,4,6,2]  
+//  x.sort()
+//  {
+//      console.log(x);
+
+//  }
+// let a = +prompt()
+// let b =3;
+// let c =a**b
+
+// for (a = 0; a>=7; a++);
+// if (){
+//     console.log(a);
+
+// } else {
+//     console.log(false);
+
+// }
+
+
+
+// let x = 5;
+// let b = 2;
+// console.log(x**b);
+
+
+// HISHEL!!!!
+// let arr = [20, 17, 438, 27,9]
+// function t(a, b) {
+//     return a - b;
+
+// }
+// alert(arr.sort());
+// alert(arr.sort(t));
+
+// das x o   n\
+
+let border = [
+    ["_", "_", "_"],
+    ["_", "_", "_"],
+    ["_", "_", "_"],
+];
+let player = "x";
+
+while (true) {
+    let = boardIndex = border[0].join("  ") + "\n" + border[1].join("  ") + "\n" + border[2].join("  ");
+    let row = +prompt("your cordinete for row\n" + boardIndex)
+    let colume = +prompt("your cordinete for colume\n" + boardIndex)
+
+    if (border[row][colume] !== "_") {
+        alert("games over");
+        continue;
+    }
+
+    border[row][colume] = player;
+
+    if (player == "x") {
+        player = "o";
+    } else {
+        player = "x";
+    }
+}
+if (border[0][0] == player && border[0][1] == player && border[0][2] == player ||
+    border[1][0] == player && border[1][1] == player && border[1][2] == player ||
+    border[2][0] == player && border[2][1] == player && border[2][2] == player){
+        alert("YOU WIN"); 
+    }else{
+        alert("YOU LOSE");
         
-      let x = [,5,7,3,6,4,1,8,9,4,5,4,6,2]  
-     x.sort()
-     {
-         console.log(x);
-         
-     }
-     
+    }
+    alert(border);
+
+
+// function fuc(n){
+//     if(n<=1){
+//        return 1 
+//      }  
+//     return n*fuc(n-1);
+// }
+// console.log(fuc(4));

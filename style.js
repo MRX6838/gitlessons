@@ -91,9 +91,9 @@
 // a[6] = 16
 // console.log(a);
 
-
+// debugger
 // let y = [4,[6,8,10],66,83,9,[2,1,9,[6,7,8,]]]
-// let a = y[5][3][2]
+// let a = y[5][3]
 // console.log(a);
 
 
@@ -1059,41 +1059,65 @@
 
 // das x o   n\
 
-let border = [
-    ["_", "_", "_"],
-    ["_", "_", "_"],
-    ["_", "_", "_"],
-];
-let player = "x";
+// let border = [
+//     ["_", "_", "_"],
+//     ["_", "_", "_"],
+//     ["_", "_", "_"],
+// ];
+// let player = "x";
 
-while (true) {
-    let = boardIndex = border[0].join("  ") + "\n" + border[1].join("  ") + "\n" + border[2].join("  ");
-    let row = +prompt("your cordinete for row\n" + boardIndex)
-    let colume = +prompt("your cordinete for colume\n" + boardIndex)
+// while (true) {
+//     let = boardIndex = border[0].join("  ") + "\n" + border[1].join("  ") + "\n" + border[2].join("  ");
+//     let row = +prompt("your cordinete for row\n" + boardIndex)
+//     let colume = +prompt("your cordinete for colume\n" + boardIndex)
 
-    if (border[row][colume] !== "_") {
-        alert("games over");
-        continue;
-    }
 
-    border[row][colume] = player;
+//     if (border[row][colume] !== "_") {
+//         alert("try again");
+//         continue;
+//     }
 
-    if (player == "x") {
-        player = "o";
-    } else {
-        player = "x";
-    }
-}
-if (border[0][0] == player && border[0][1] == player && border[0][2] == player ||
-    border[1][0] == player && border[1][1] == player && border[1][2] == player ||
-    border[2][0] == player && border[2][1] == player && border[2][2] == player){
-        alert("YOU WIN"); 
-    }else{
-        alert("YOU LOSE");
-        
-    }
-    alert(border);
+//     border[row][colume] = player;
+//     if (player == "x") {
+//         if (border[0][0] == player && border[0][1] == player && border[0][2] == player) {
+//             alert("YOU WIN");
+//             break;
+//         }
 
+//         if (border[1][0] == player && border[1][1] == player && border[1][2] == player) { console.log("YOU WIN"); break; }
+
+//         else if (border[2][0] == player && border[2][1] == player && border[2][2] == player) { console.log("YOU WIN"); break; }
+
+//         else if (border[0][0] == player && border[1][0] == player && border[2][0] == player) { console.log("YOU WIN"); break; }
+
+//         else if (border[0][1] == player && border[1][1] == player && border[2][1] == player) { console.log("YOU WIN"); break; }
+
+//         else if (border[0][2] == player && border[1][2] == player && border[2][2] == player) { console.log("YOU WIN"); break; }
+
+//         else if (border[0][0] == player && border[1][1] == player && border[2][2] == player) { console.log("YOU WIN"); break; }
+
+
+//         if (border[0][2] == player && border[1][1] == player && border[2][0] == player) { console.log("YOU WIN"); }
+//         player = "o";
+//     } else {
+//         if (border[0][0] == player && border[0][1] == player && border[0][2] == player) { alert("YOU WIN"); break; }
+//         if (border[1][0] == player && border[1][1] == player && border[1][2] == player) { console.log("YOU WIN"); break; }
+//         if (border[2][0] == player && border[2][1] == player && border[2][2] == player) { console.log("YOU WIN"); break; }
+//         if (border[0][0] == player && border[1][0] == player && border[2][0] == player) { console.log("YOU WIN"); break; }
+//         if (border[0][1] == player && border[1][1] == player && border[2][1] == player) { console.log("YOU WIN"); break; }
+//         if (border[0][2] == player && border[1][2] == player && border[2][2] == player) { console.log("YOU WIN"); break; }
+//         if (border[0][0] == player && border[1][1] == player && border[2][2] == player) { console.log("YOU WIN"); break; }
+//         if (border[0][2] == player && border[1][1] == player && border[2][0] == player) { console.log("YOU WIN"); break; }
+//         player = "x";
+
+//     }
+
+
+
+
+
+
+// }
 
 // function fuc(n){
 //     if(n<=1){
@@ -1102,3 +1126,134 @@ if (border[0][0] == player && border[0][1] == player && border[0][2] == player |
 //     return n*fuc(n-1);
 // }
 // console.log(fuc(4));
+
+
+// let zangvac = [1, 23,]
+// let bacasakan = [-1, -2,]
+// let drakan = zangvac[0] + zangvac[1]
+// console.log([drakan]);
+// let ban = bacasakan[0]+bacasakan[1]
+// console.log([bacasakan]);
+
+
+
+// let x = [1, 2, 3, -1, -2, -3,]
+// let drakan = []
+// let bacasakn = []
+// let miban2=0 
+// let miban = 0
+// x.forEach(dra => {
+//     if (dra >= 0){
+//         drakan.push(dra)}
+//     });
+//  x.forEach(bac=>{
+//      if(bac<0){
+//         bacasakn.push(bac)  
+//      }
+
+//  })
+
+//     drakan.forEach(dra=> {
+//     miban = miban + dra
+//  })
+//    bacasakn.forEach(bac=>{
+//        miban2=miban2+bac
+//    })
+
+
+// console.log(drakan);
+// console.log(bacasakn);
+// console.log(miban);
+// console.log(miban2);
+
+
+// function f1(){
+// console.log(f2());
+
+// }
+
+// function f2(){
+// console.log(f4());
+
+// }
+
+// function f3(){
+// console.log("hi");
+
+// }
+// function f4(){
+// console.log(f5());
+
+// }
+// function f5(){
+// console.log(3());
+
+// }
+
+// console.log(f1);
+
+
+// let a ={
+//     name:"Gor",
+//     surname:"Gevorgyan",
+//     gtiname:"MRX6838",
+//     age:"20"
+// }
+// let b = 0
+// for(let values in a)
+//   b++
+// console.log(b);
+// let boy ={
+//     name:"Gor",
+//     surname:"Gevorgyan",
+//     age:"21",
+//     tell:"077266360"
+
+// }
+// boy.work="true"
+// boy.car="BMW"
+// boy.burtday=function(){
+// this.age="22"
+// this.car="porsh"
+// }
+// for(let keys in boy)
+//   console.log(boy[keys]);  
+// delete boy.tell
+// console.log(boy);
+
+// console.log(boy.burtday());
+// console.log(boy);
+
+// let erkarutyun = [
+//   {
+//     width: "4",
+//     height: "9",
+//   },
+//   {
+//     width: "8",
+//     height: "4"
+//   },
+//   {
+//     width: "6",
+//     height: "7",
+//   }
+// ]
+// erkarutyun.forEach(gumar => {
+//   console.log(gumar.width*gumar.height);
+
+// });
+
+// le
+
+// let x = [1, 2, 3, 4, 5, -8, -7, 15, 29, 70, -60]
+// let sum = 0
+// let a = 0
+// x.forEach(gumar=>{
+//     if(gumar > 0 )
+//     sum=sum+gumar
+//     a++
+
+// })
+// console.log(sum);
+// console.log(a);
+

@@ -1255,5 +1255,176 @@
 
 // })
 // console.log(sum);
-// console.log(a);
+// console.log(a)
+
+
+// let nemul = {
+//     width: 100,
+//     height: 200,
+//     title: 'multiply'
+// }
+
+
+//  function mult(nemul){
+//     for ( key in nemul){
+//          if(typeof nemul[key] == "number"){
+//            nemul[key] *= 2 ;
+//          }       
+//     }
+// }
+
+
+// console.log(mult(nemul));
+
+// console.log(nemul)
+
+// let obj = {
+//     name: "name",
+//     surname: "surname",
+//     age: "age"
+
+// };
+
+
+
+// let obj2 = obj
+// obj.name = "naem1"
+// console.log(obj);
+// console.log(obj2);
+
+
+// function digit(sum) {
+//     let dig = num % 10;
+//     if(dig!=0){
+//         let num1=Math.floor(num/10);
+//         console.log(dig);
+//         digit(num1)
+
+//     }
+// }
+// create get set assine thise(xorac) 
+
+// let a ={w:10,e:20,q:78};
+// let b ={v:50,q:5} 
+// let h = Object.assign(a,b)
+
+// console.log(h);
+
+// [1,2,3,3].at(2) 
+// [1,23,4,6,].pop()
+
+                                     //ZANGVAC
+// let arr = [1,2,3,23, 4, 6, 8, 9]
+// arr.includes(4)  //cuyca talis zangvacum tenc ban unenq te che 
+// arr.indexOf(4)         //veradarcnuma te et tivy vor indexuma
+// arr.indexOf(2, 4)    //arajiny cuyca talis et tvi indexy isk myus tviy utruma tvyal indexy (ete mi tvic ka mi qani hat)
+// arr.map((i) => 3 * i)      //sarkuma taza zangva 
+// arr.find((i) => i < 10)   // gtunma arajin patahacy yst paymani
+// arr.filter((i) => i < 6)     //veradarcnuma nor zangvacov u paymanin sax bavaroroxy
+// arr.entries((i) => i > 5)    //
+// arr.every((i) => i>0 )   //ete bolor tarery  hamapatsxanum en grac paymanin talisa true ete dajy meky chbavarari veradacnelu ya fols
+// arr.findIndex((i)=>i === 3)  // gnuma nvac tvi indexy
+// arr.reduce((prev,curr)=> prev+curr,8)   //gumaruma zangvaci meji sax tvery 
+// arr.splice(2,1)                         // 2(vor elemntic sksac (qani element hani))      (startic minchev gract tivy)    //(1indexic sksac minchev 3 indexy 2 tiv hani) neraryal chi vekalum
+// arr.slice(1,3)                      /   /sarquma nor zangvac  nerayryal chi vercnum  (start end) jnjuma verjic
+
+
+//                      STRING
+// let val = 'hellow world'
+// console.log(val.length);
+// console.log(val[2]);// konkret et indexi tarnes imanum
+// console.log(val.includes('pp')); //karas imanas te es tary ka te che (bayc hertakanutyamb piti gres)
+// console.log(val.indexOf('ap'));  //talua 0  index menak
+// console.log(val.endsWith('e'));//verjin tary inchova prcnum
+// console.log(val.startsWith('a'))// skzbi tary incha cuyc talu
+// console.log(val.slice(3,5));//vekaluma 3 ic bayc 5y chi vekalum
+// console.log(val.split(' '));//vecnuma tarber mizangva aradzin cakertnerov 'hellow' 'wolrd' 
+// console.log(val.split('l'));//  es paragayum hanum nshvac terery
+// console.log(val.toUpperCase());  //  sax tarery sarquma mecatar
+// console.log(val.toLowerCase()); // sax sarquma poqratar
+// console.log(val.replace('ll','oo')); //  tarery poxuma 
+// console.log(val.replace('l','oo')); // i l poxec 2 o
+// console.log(val.repeat(2)); //  tpuma  mi qani angam irar kpac   
+
+
+//                          MATH
+// console.log(Math.round(3.2)); // kloracnuma 
+//    console.log(Math.floor(3.5)); // inchkanel  mec lini ijacneluya poqr i vra (3)
+//    console.log(Math.ceil(3.2)); // tauma meci koxm  (4)
+//   console.log(Math.max); // vercnuma mi qani tvic amena mecy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let obj ={
+//     name:'ArGo',
+//     birday:1995
+// }
+// obj.name="alex"
+// console.log(obj.name);
+// console.log(obj.birday);
+
+
+// let person = Object.create(
+//     {},//prototype i hmara 
+//     {
+//         name: {
+//             value: 'argo',
+//             enumerable: true,//petqa sa grenk vor cosolum ereva  for ciklum eravalu hamr
+//             writable: true,  // vo karoxanas arjeknery poxes
+//             configurable: true,//es el jnjelu hmar
+//         },
+//         birdyear: {
+//             value: 1995,
+//             enumerable: true,
+//             writable: true,
+//             configurable: true,
+//         },
+//         age: {
+//             get() {
+//                 return new Date().getFullYear() - this.birdyear;
+//             },
+//             set(value){
+//                 document.body.style.background ='red'
+//                 console.log('set age',value);
+
+//             }
+//         },
+//     }
+// );
+// person.name = 'alex'
+// console.log(person);
+// console.log(person.age);
+
+
+// for (let key in person) {
+//     console.log(person[key])
+// }
+// delete person.name   //es dzevnel ches kara ogtagorces 
+//es paragayum ches kara es dzevov poxes iran
+
 

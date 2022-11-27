@@ -90,3 +90,15 @@
 
 
 // }
+let a = [1, 23, 4.7, 7.4, 'mi', 'erku', true, 'string'];
+let num = [];
+let strin =[];
+let bul = []
+a.forEach(ba => {
+    if (ba.typeof == 'number')
+       nam.puhs(ba)
+    {
+      console.log(nam);
+      
+    }
+})

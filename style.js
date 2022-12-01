@@ -1313,7 +1313,7 @@
 // [1,2,3,3].at(2) 
 // [1,23,4,6,].pop()
 
-                                     //ZANGVAC
+//ZANGVAC
 // let arr = [1,2,3,23, 4, 6, 8, 9]
 // arr.includes(4)  //cuyca talis zangvacum tenc ban unenq te che 
 // arr.indexOf(4)         //veradarcnuma te et tivy vor indexuma
@@ -1352,15 +1352,41 @@
 //    console.log(Math.floor(3.5)); // inchkanel  mec lini ijacneluya poqr i vra (3)
 //    console.log(Math.ceil(3.2)); // tauma meci koxm  (4)
 //   console.log(Math.max); // vercnuma mi qani tvic amena mecy 
+//   console.log(math.pow(2,2));  sra mijocov astijna barcracnum
+//   console.log(Math.sqrt(25));// armata hanum
+
+//                        primitiv (number,booline, strin,bigInt,null,undefind,synmbol,)
+
+// number --- (minchev 64 byte)
+//bigint ---  (2(53astijan) - 1) eti hamari bilion na 
+
+
+// let x = 1234n;
+// let x1 = bigInt(1234)
+// console.log(x);
+
+// console.log(1n + 2n);
+// console.log(5n / 2n); es paragayum 2.5 text talisa 2 kloracnuma
+// console.log(2e5);  es (E) ic heto inch tiv gres etqan 0 ya avelacnelu
+
+
+//let a = 0xff  (6akan tiv) ((0-9)
+// let b = 0b11111111 \\(2) (0 1010110)
+// let c = 0o377 //8
+// (0-9, A-Z) 32 akan()
 
 
 
 
+// let a = 255
+// console.log(a.toString(2)); //es el anuma hakark gorcoxutyuny
+// console.log(a.toString(8));
+// console.log(a.toString(16));
 
-
-
-
-
+// console.log(math.pow(2,2)); // astijana barcracnum
+// onsole.log(Math.sqrt(25))// armata hanum
+// console.log(a.toFixed(2)); //ketic heto kani tiv vercni u kloracnuma 
+// console.log(0.1 + 0.2);//shta gitem inch tiva stacvum  (0.3 u dranic barcr  depqum jishta ashxatum)
 
 
 
@@ -1428,3 +1454,12 @@
 //es paragayum ches kara es dzevov poxes iran
 
 
+// function Person1(){
+//     this.name = 'gor',
+//     this.surname = "gevorgyan",
+//     this.age="21",
+//     this.getfullName=()=>{
+//         return this.name + " " +this.surname
+//     }
+
+// }
